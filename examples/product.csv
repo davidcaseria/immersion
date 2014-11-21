@@ -1,0 +1,2 @@
+Product.Language,Product.LineOfBusiness,Product.Name,Product.IndexName,Product.ReferenceDate,Product.Id.Type,Product.Id.Value,Product.Status,Product.AllowMultiplePurchases,Product.PresentationType,Product.Weight,Product.Categories[0].Value,Product.GuidanceRatings[0].Value
+en-US,2,JSONTest,JSONTest,1989-07-07T05:00:00.000Z,ContentID,urn:dece:cid:eidr-s:JSONTestCID,1,TRUE,2,0,2357,1

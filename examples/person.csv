@@ -1,0 +1,2 @@
+Person.Id,Person.FirstName,Person.LastName,Person.DisplayName,Person.References[0].Type,Person.References[0].Value,Person.Language,Person.Status
+"{""Type"":""ContentPersonExternalID"",""Value"":""Immersion2Test2""}",Test,Person,Test Person,ContentPersonExternalID,Immersion2Test2,en-US,1

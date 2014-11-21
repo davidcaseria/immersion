@@ -1,0 +1,2 @@
+Media.Id.Type,Media.Id.Value,Media.References[0].Type,Media.References[0].Value,Media.Name,Media.Url,Media.Type,Media.Language,Media.Status,Media.RestrictDeliveryCapabilities,Media.AllowedDeliveryCapabilities
+ContentItemExternalID,Immersion2Test1,ContentItemExternalID,Immersion2Test1,Test Media Object,http://test.url,2,en-US,1,TRUE,"[258,254,233,232,237,236]"
