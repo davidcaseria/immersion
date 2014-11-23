@@ -1,29 +1,50 @@
 {
   "name": "immersion",
-  "version": "1.1.11",
-  "description": "content direct product catalog command line tool",
-  "main": "immersion.js",
-  "bin": "./bin/immersion.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.0",
+  "main": "lib/immersion.js",
+  "description": "Content Direct immersion tool",
+  "homepage": "http://contentdirect.csgi.com",
+  "bugs": "https://github.com/davidcaseria/immersion/issues",
+  "author": {
+    "name": "David Caseria",
+    "email": "davidcaseria@gmail.com",
+    "url": "davidcaseria.github.io"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidcaseria/immersion"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "keywords": [
+    "immersion",
     "content",
     "direct",
     "immersion"
   ],
-  "author": "Dave Caseria",
-  "license": "ISC",
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "immersion": "cli.js"
+  },
+  "preferGlobal": "true",
   "dependencies": {
-    "commander": "^2.3.0",
+    "commander": "^2.5.0",
+    "content-direct": "^0.1.0",
     "csv-parse": "0.0.6",
-    "deep-extend": "^0.2.11",
     "mkdirp": "^0.5.0",
-    "promptly": "^0.2.0",
-    "request": "^2.44.0"
-  },
-  "directories": {
-    "example": "examples"
-  },
-  "devDependencies": {}
+    "promptly": "^0.2.0"
+  }
 }

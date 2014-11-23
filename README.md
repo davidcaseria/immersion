@@ -29,7 +29,7 @@ The entity rows can contain either primitive values (i.e. boolean, number, strin
 
 ## Core Documentation
 
-Use your sandbox credentials to view the core request formats: https://documentation.doc1.cdops.net/v5.7/Interface.aspx?interface=Catalog.
+Use your sandbox credentials to view the core request formats: https://documentation.doc1.cdops.net/v6.0/Interface.aspx?interface=Catalog.
 
 ## Logging
 
@@ -49,6 +49,11 @@ Updates media objects in staging.
 
 Updates product objects in sandbox using targeted method (only fields in the CSV file are updated).
 
+## Contributing
+
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
+
 ## License
 
-ISC???
+Copyright (c) 2014 David Caseria  
+Licensed under the MIT license.
