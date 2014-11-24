@@ -21,8 +21,7 @@
   "keywords": [
     "immersion",
     "content",
-    "direct",
-    "immersion"
+    "direct"
   ],
   "devDependencies": {
     "chai": "^1.10.0",
@@ -37,7 +36,7 @@
   "scripts": {
     "test": "grunt"
   },
-  "bin": "./immersion.js",
+  "bin": "./bin/immersion.js",
   "preferGlobal": "true",
   "dependencies": {
     "commander": "^2.5.0",
