@@ -1,8 +1,8 @@
 {
   "name": "immersion",
-  "version": "2.0.6",
-  "main": "lib/immersion.js",
-  "description": "Content Direct immersion tool",
+  "version": "2.0.7",
+  "main": "./lib/immersion.js",
+  "description": "Content Direct product catalog command line tool",
   "homepage": "http://contentdirect.csgi.com",
   "bugs": "https://github.com/davidcaseria/immersion/issues",
   "author": {
@@ -16,6 +16,7 @@
   },
   "license": "MIT",
   "files": [
+    "bin",
     "lib"
   ],
   "keywords": [
@@ -36,7 +37,7 @@
   "scripts": {
     "test": "grunt"
   },
-  "bin": "bin/immersion.js",
+  "bin": "./bin/immersion.js",
   "preferGlobal": "true",
   "dependencies": {
     "commander": "^2.5.0",
