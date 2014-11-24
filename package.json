@@ -1,6 +1,6 @@
 {
   "name": "immersion",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "main": "lib/immersion.js",
   "description": "Content Direct immersion tool",
   "homepage": "http://contentdirect.csgi.com",
@@ -25,13 +25,14 @@
     "immersion"
   ],
   "devDependencies": {
+    "chai": "^1.10.0",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^0.4.0",
-    "time-grunt": "^0.3.1",
     "grunt-mocha-cli": "^1.9.0",
-    "jshint-stylish": "^0.2.0"
+    "jshint-stylish": "^0.2.0",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1"
   },
   "scripts": {
     "test": "grunt"

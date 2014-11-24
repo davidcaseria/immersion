@@ -1,10 +1,14 @@
 /*global describe,it*/
 'use strict';
-var assert = require('assert'),
+var expect = require('chai').expect,
   immersion = require('../lib/immersion.js');
 
-describe('immersion node module.', function() {
-  it('must be awesome', function() {
-    assert( immersion.awesome(), 'awesome');
+describe('immersion node module', function () {
+  it('should have a create function', function () {
+    expect(immersion.create).to.be.a('function');
+  });
+
+  it('should have a update function', function () {
+    expect(immersion.update).to.be.a('function');
   });
 });
