@@ -1,6 +1,6 @@
 {
   "name": "immersion",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "main": "lib/immersion.js",
   "description": "Content Direct immersion tool",
   "homepage": "http://contentdirect.csgi.com",
@@ -36,7 +36,9 @@
   "scripts": {
     "test": "grunt"
   },
-  "bin": "./bin/immersion.js",
+  "bin": {
+    "immersion": "./bin/immersion.js"
+  },
   "preferGlobal": "true",
   "dependencies": {
     "commander": "^2.5.0",
