@@ -37,13 +37,14 @@
     "test": "grunt"
   },
   "bin": {
-    "immersion": "cli.js"
+    "immersion": "immersion.js"
   },
   "preferGlobal": "true",
   "dependencies": {
     "commander": "^2.5.0",
-    "content-direct": "^0.1.0",
+    "content-direct": "^0.1.2",
     "csv-parse": "0.0.6",
+    "extend": "^2.0.0",
     "mkdirp": "^0.5.0",
     "promptly": "^0.2.0"
   }
