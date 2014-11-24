@@ -5,6 +5,7 @@
 // Dependencies
 var ContentDirect = require('content-direct'),
   immersion = require('../lib/immersion.js'),
+  fs = require('fs'),
   program = require('commander'),
   promptly = require('promptly');
 
@@ -55,7 +56,7 @@ function authenticate(environment, callback) {
 
 // Command-line tool options
 program
-  .version('2.0.8')
+  .version('2.0.9')
   .option('-e, --environment <environment>', 'int1, sbx1 (default), stg1, etc.', 'sbx1')
   .option('-f, --file <file>', 'csv file to immerse')
   .option('-t, --target', 'updates only fields in the csv file');

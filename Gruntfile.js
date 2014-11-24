@@ -19,6 +19,9 @@ module.exports = function(grunt) {
       gruntfile: {
         src: 'Gruntfile.js'
       },
+      bin: {
+        src: ['bin/**/*.js']
+      },
       lib: {
         src: ['lib/**/*.js']
       },
@@ -37,6 +40,10 @@ module.exports = function(grunt) {
       gruntfile: {
         files: '<%= jshint.gruntfile.src %>',
         tasks: ['jshint:gruntfile']
+      },
+      bin: {
+        files: '<%= jshint.bin.src %>',
+        tasks: ['jshint:bin', 'mochacli']
       },
       lib: {
         files: '<%= jshint.lib.src %>',
