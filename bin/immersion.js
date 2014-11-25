@@ -2,6 +2,9 @@
 
 'use strict';
 
+// Semantic Versioning
+var version = '2.0.9';
+
 // Dependencies
 var ContentDirect = require('content-direct'),
   immersion = require('../lib/immersion.js'),
@@ -56,7 +59,7 @@ function authenticate(environment, callback) {
 
 // Command-line tool options
 program
-  .version('2.0.9')
+  .version(version)
   .option('-e, --environment <environment>', 'int1, sbx1 (default), stg1, etc.', 'sbx1')
   .option('-f, --file <file>', 'csv file to immerse')
   .option('-t, --target', 'updates only fields in the csv file');

@@ -26,10 +26,12 @@
   ],
   "devDependencies": {
     "chai": "^1.10.0",
+    "grunt-bump": "0.0.16",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha-cli": "^1.9.0",
+    "grunt-version": "^0.3.0",
     "jshint-stylish": "^0.2.0",
     "load-grunt-tasks": "^0.4.0",
     "time-grunt": "^0.3.1"
@@ -41,7 +43,7 @@
   "preferGlobal": "true",
   "dependencies": {
     "commander": "^2.5.0",
-    "content-direct": "^0.1.2",
+    "content-direct": "^0.1.3",
     "csv-parse": "0.0.6",
     "extend": "^2.0.0",
     "mkdirp": "^0.5.0",
