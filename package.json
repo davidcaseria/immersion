@@ -1,6 +1,6 @@
 {
   "name": "immersion",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "main": "./lib/immersion.js",
   "description": "Content Direct product catalog command line tool",
   "homepage": "http://contentdirect.csgi.com",
