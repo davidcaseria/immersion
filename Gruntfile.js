@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         updateConfigs: [],
         commit: true,
         commitMessage: 'release v%VERSION%',
-        commitFiles: ['package.json'],
+        commitFiles: ['package.json', 'bin/immersion.js'],
         createTag: true,
         tagName: 'v%VERSION%',
         tagMessage: 'version %VERSION%',
