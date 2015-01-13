@@ -41,6 +41,11 @@ function authenticate(environment, callback) {
           }, null, 4), function () {});
 
           // Create user session
+          console.log(user, password, systemId);
+          console.log(JSON.stringify({
+            Login: user,
+            Password: password
+          }));
           cd.Security.CreateSession({
             Login: user,
             Password: password
