@@ -3,7 +3,7 @@
 'use strict';
 
 // Semantic Versioning
-var version = '2.0.12';
+var version = '2.0.13';
 
 // Dependencies
 var ContentDirect = require('content-direct'),
@@ -41,11 +41,6 @@ function authenticate(environment, callback) {
           }, null, 4), function () {});
 
           // Create user session
-          console.log(user, password, systemId);
-          console.log(JSON.stringify({
-            Login: user,
-            Password: password
-          }));
           cd.Security.CreateSession({
             Login: user,
             Password: password
@@ -81,7 +76,7 @@ program
 
     authenticate(program.environment, function (err, headers) {
       if (err) {
-        console.log('Login Error', err);
+        console.log('Login Error');
         process.exit(1);
       }
 
@@ -101,7 +96,7 @@ program
 
     authenticate(program.environment, function (err, headers) {
       if (err) {
-        console.log('Login Error', err);
+        console.log('Login Error');
         process.exit(1);
       }
 
