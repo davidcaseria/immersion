@@ -76,7 +76,7 @@ program
 
     authenticate(program.environment, function (err, headers) {
       if (err) {
-        console.log('Login Error');
+        console.log('Login Error', err);
         process.exit(1);
       }
 
@@ -96,7 +96,7 @@ program
 
     authenticate(program.environment, function (err, headers) {
       if (err) {
-        console.log('Login Error');
+        console.log('Login Error', err);
         process.exit(1);
       }
 
