@@ -3,7 +3,7 @@
 'use strict';
 
 // Semantic Versioning
-var version = '2.0.10';
+var version = '2.0.11';
 
 // Dependencies
 var ContentDirect = require('content-direct'),
